@@ -1,7 +1,6 @@
 ---
 layout: page
-title:
-tagline: 
+title: Reading Reflection
 ---
 {% include JB/setup %}
 
