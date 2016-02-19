@@ -2,8 +2,7 @@
 layout: post
 title: "Clean Code"
 description: ""
-category: Books 
-tags: [Books]
+category: 
+tags: []
 ---
 {% include JB/setup %}
-This is test post
