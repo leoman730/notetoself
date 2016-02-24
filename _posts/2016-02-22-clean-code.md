@@ -73,8 +73,6 @@ But do remember code with tests doesn’t imply the code itself is clean.
 
 
 
-
-
 ---
 
-[productivity vs. time]: {{ site.url }}/assets/images/productivity_vs_time.jpg
+[productivity vs. time]: {{ BASE_PATH }}/assets/images/productivity_vs_time.jpg
