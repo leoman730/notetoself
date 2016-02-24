@@ -1,4 +1,4 @@
-## Note to Self [![Build Status](https://travis-ci.org/leoman730/notetoself.svg?branch=master)](https://travis-ci.org/leoman730/notetoself)
+## Note to Self [![Build Status](https://travis-ci.org/leoman730/notetoself.svg?branch=gh-pages)](https://travis-ci.org/leoman730/notetoself)
 
 A blog for my reading reflections: [Note to Self]
 
