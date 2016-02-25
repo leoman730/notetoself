@@ -82,8 +82,8 @@ Clean code = expectation + no suprise
 The book mentioned to recording an editing session for every keystroke, and then play it back like in a high-speed movie, you will find how much time you will spend just navigate the code instead of writing new code. This is pretty true on myself.
 
 
-####*The Boy Scout Rule*
-> > If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot.
+#### *The Boy Scout Rule*
+> If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot.
 
 
 
