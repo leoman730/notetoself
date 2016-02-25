@@ -58,15 +58,32 @@ I think writing good codes is like writting a good thesis.
 
 But do remember code with tests doesn’t imply the code itself is clean.
 
+> Clean code always looks like it was written by someone who **cares**... sitting in **appreciation** of the code someone left for you - code left by someone who **cares deeply** about the **craft**.
+>
+> <cite>- Michael Feathers</cite>
+
+“Craft” is the megnetic word for clean code.
+
+> Clean code = Reduced duplication, high expressiveness, and early buildings of simple abstractions.
+> 
+> <cite>- Ron Jeffries</cite>
+
+> When each routine you read turns out to be pretty much what you **expected**... You will read it, and it will be pretty much what you expected. It will be **obvious, simple, and compelling**.
+> 
+> <cite>- Ward Cunningham</cite>
+
+Clean code = expectation + no suprise
+
+> **Next time when you write a line of code, remember you are an author, writing for readers who will judge your effort.**
+ 
+ 
+> The ratio of time spent reading vs. writing is well over **10:1**. We are constantly reading old code as part of the effort to write new code.
+
+The book mentioned to recording an editing session for every keystroke, and then play it back like in a high-speed movie, you will find how much time you will spend just navigate the code instead of writing new code. This is pretty true on myself.
 
 
-
-
-
-
-
-
-
+####*The Boy Scout Rule*
+> > If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot.
 
 
 

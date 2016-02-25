@@ -204,4 +204,3 @@ Purge the cache for the current directory
 [spf13-vim, customization](https://github.com/leoman730/spf13-vim)  
 [Vim Tips & Tricks](https://www.cs.swarthmore.edu/help/vim/home.html)  
 [Vim Cast] (http://vimcasts.org/)
-
