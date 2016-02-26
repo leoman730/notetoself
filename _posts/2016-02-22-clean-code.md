@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Clean Code"
+title: "Clean Code: A Handbook of Agile Software Craftsmanship"
 description: ""
-category: 
+category: “Book”
 tags: []
 ---
 {% include JB/setup %}
 
-The book [Clean Code: A Handbook of Agile Software Craftsmanship] by Robert C. Martin (Uncle Bob) is highly recommended and respected by many software developers. From reading the first chapter, I am hooked. This book is a must read by anyone who want to become a better coder and to write elegant code that is pleasae to read.
+The book [Clean Code: A Handbook of Agile Software Craftsmanship] by Robert C. Martin (Uncle Bob) is highly recommended and respected by many software developers. From reading the first chapter, I was hooked. This book is a must read by anyone who want to become a better coder and to write elegant code that is pleasae to read.
 
 
 * TOC  
