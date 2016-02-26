@@ -9,7 +9,7 @@ kramdown:
 
 # Exclude vendor directory due to Travis breaking 
 # https://github.com/payments-reference/payments-reference/commit/952747f5ec63a1d7cb56732f9b69756b4233d18f
-exclude: [vendor]
+exclude: ["vendor"]
 
 
 # This is the default format. 
