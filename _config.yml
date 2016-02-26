@@ -7,16 +7,14 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Exclude vendor directory due to Travis breaking 
-# https://github.com/payments-reference/payments-reference/commit/952747f5ec63a1d7cb56732f9b69756b4233d18f
-exclude: ["vendor"]
-
 
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+# Exclude vendor directory due to Travis breaking 
+# https://github.com/payments-reference/payments-reference/commit/952747f5ec63a1d7cb56732f9b69756b4233d18f
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "vendor"]
 #highlighter: pygments
 # highlighter: rouge
 
