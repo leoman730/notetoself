@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
+The book [Clean Code: A Handbook of Agile Software Craftsmanship] by Robert C. Martin (Uncle Bob) is highly recommended and respected by many software developers. From reading the first chapter, I am hooked. This book is a must read by anyone who want to become a better coder and to write elegant code that is pleasae to read.
+
 
 * TOC  
 {:toc}
@@ -82,14 +84,44 @@ Clean code = expectation + no suprise
 The book mentioned to recording an editing session for every keystroke, and then play it back like in a high-speed movie, you will find how much time you will spend just navigate the code instead of writing new code. This is pretty true on myself.
 
 
-#### *The Boy Scout Rule*
+*The Boy Scout Rule*
 > If we all checked-in our code a little cleaner than when we checked it out, the code simply could not rot.
 
 
+### Meaningful Names
+> If a neme requires a comment, then the name does not reveal its intent.
 
+> Programmer must **avoid leaving false clues** that obscure the meaning of the code.
+
+> Beaware of using names which vary in small ways.  
+> ex: ControllerForEfficientHandlingOfStrings vs. ControllerForEfficientStorageOfStrings
+
+> The truly hideous practice of creating a variable named klass just because the name class was used for something else.
+
+Whoever doing thing like this should truly be critized publically.
+
+> 
+> ```shell
+> # How are the programmers in this project supposed to know which of these functions to call
+> getActiveAccount();
+> getActiveAccounts();
+> getActiveAccountInfo();
+> ```
+
+
+> If a variable or constant used in multiple places in a body of code, it is imperative to give it a search-friendly name.
+
+### References
+[Clean Code: A Handbook of Agile Software Craftsmanship]
+
+
+### Recommendation
+Clean Coder: [cleancoders.com]
 
 
 
 ---
 
 [productivity vs. time]: {{ BASE_PATH }}/assets/images/productivity_vs_time.jpg
+[Clean Code: A Handbook of Agile Software Craftsmanship]:(http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+[cleancoders.com]:(https://cleancoders.com)
