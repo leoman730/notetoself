@@ -193,7 +193,7 @@ Ctrl-w _
 Ctrl-w |
 ```
 
-###Ctrlp.vim
+### Ctrlp.vim
 ```
 Purge the cache for the current directory
 :CtrlPClearCache or F5
@@ -203,4 +203,4 @@ Purge the cache for the current directory
 ## References:
 [spf13-vim, customization](https://github.com/leoman730/spf13-vim)  
 [Vim Tips & Tricks](https://www.cs.swarthmore.edu/help/vim/home.html)  
-[Vim Cast] (http://vimcasts.org/)
+[Vim Cast](http://vimcasts.org/)
