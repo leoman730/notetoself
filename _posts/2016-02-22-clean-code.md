@@ -123,5 +123,5 @@ Clean Coder: [cleancoders.com]
 ---
 
 [productivity vs. time]: {{ BASE_PATH }}/assets/images/productivity_vs_time.jpg
-[Clean Code: A Handbook of Agile Software Craftsmanship]:(http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-[cleancoders.com]:(https://cleancoders.com)
+[Clean Code: A Handbook of Agile Software Craftsmanship]:http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
+[cleancoders.com]:https://cleancoders.com
