@@ -111,6 +111,60 @@ Whoever doing thing like this should truly be critized publically.
 
 > If a variable or constant used in multiple places in a body of code, it is imperative to give it a search-friendly name.
 
+
+According to wikipedia, the [Hungarian notation (HN)] is an identifier naming convention in computer programming, in which the name of a variable or function indicates its type or intended use.
+
+> One difference between a smart programmer and a professional programmer is that the professional **understands that clarity is king**. Professionals use their powers for good and write code that others can understand.
+
+> When constructors are overloaded, use static factory methods with names that describe the arguments.
+> 
+> ```shell
+> Complex fulcrumPoint = Complex.FromRealNumber(23.0); 
+> # is better than
+> Complex fulcrumPoint = new Complex(23.0);
+> ```
+
+> **Pick One Word per Concept**  
+> It is confusing to have fetch, retrieve, and get as equivalent methods of different classes.
+> 
+> It is not wise to draw every name from the problem domain because we don’t want our coworkers to have to run back and forth to the customer asking what every name means when they already know the concept by a different name.
+
+ As programmer, they already know the terms belongs to CS domain (algorithem, pattern, math etc.), so use those terms whenever is possible.
+
+> The hardest thing about choosing good names is that it requires **good descriptive skills** and a **shared cultural background**.  
+
+### Functions  
+> Functions are the first line of organization in any program.
+
+There’s a distinction between function, method, and procedures. According to [adamcod.es]:
+
+> A function is essentially a **sub-routine** that **returns one or more values**. A function should **calculate its return value based on its input**; It should provide an answer about its arguments, or compute a new value based on its arguments. 
+> 
+> A procedure is a sub-routine that **doesn’t return a value**, but does have side-effects. This could be writing to a file, printing to the screen, or modifying the value of its input. 
+> 
+>  A method is really a function or procedure that is executed **in the context of an object**. 
+
+
+> Lines should not be 150 characters long. Functions should not be 100 lines long, and hardly ever be 20 lines long.
+
+
+> The indent level of a function should not be greater than one or two, this can makes the functions easier to read and understand.
+
+**REMEMBER THE ABSTRACTION!!**
+
+> **FUNCTIONS SHOULD DO ONE THING. THEY SHOULD DO IT WELL. THEY SHOULD DO IT ONLY.**
+
+> The reason we write functions is to **decompose a larger concept into a set of steps** at the **next level of abstraction**. 
+
+
+> In order to make sure fuctions are doing “one thing”, make sure that the statemetns within the function are **all at the same level of abstractions**... Mixing levels of abstraction within a function is always confusing.
+
+> We want the code to read like a top-down narrative. We want every function to be followed by those at the next level of abstraction so that we can read the program, descending one level of abstraction at a time as we read down the list of functions.
+
+> Making the code read like a top-down set of TO paragraphs is an effective technique for keeping the abstraction level consistent.
+
+
+
 ### References
 [Clean Code: A Handbook of Agile Software Craftsmanship]
 
@@ -125,3 +179,5 @@ Clean Coder: [cleancoders.com]
 [productivity vs. time]: {{ BASE_PATH }}/assets/images/productivity_vs_time.jpg
 [Clean Code: A Handbook of Agile Software Craftsmanship]:http://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882
 [cleancoders.com]:https://cleancoders.com
+[Hungarian notation (HN)]:https://en.wikipedia.org/wiki/Hungarian_notation
+[adamcod.es]:https://adamcod.es/2013/09/27/function-method-procedure.html

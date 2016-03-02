@@ -159,11 +159,11 @@ Copy line by range
 [Reference](http://stackoverflow.com/questions/1562336/tab-vs-space-preferences-in-vim)
 
 ```
-tabstop - the width of tab character
-shiftwidth - specifies how many columns to increment/decrement when using the << and >> commands
-softtabstop - the amount of whitespace to be inserted when you press the Tab key in insert mode
-expandtab (on) -  the tab key inserts softtabstop number of space characters
-expandtab (off) - the Tab key inserts a the smallest possible number of tab+space characters that matches softtabstop
+set tabstop - the width of tab character
+set shiftwidth - specifies how many columns to increment/decrement when using the << and >> commands
+set softtabstop - the amount of whitespace to be inserted when you press the Tab key in insert mode
+set expandtab (on) -  the tab key inserts softtabstop number of space characters
+set noexpandtab (off) - the Tab key inserts a the smallest possible number of tab+space characters that matches softtabstop
 ```
 
 
