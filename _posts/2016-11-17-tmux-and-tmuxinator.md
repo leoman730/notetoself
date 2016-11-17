@@ -8,7 +8,7 @@ tags: [devtool]
 {% include JB/setup %}
 
 
-###Sessions
+### Sessions
 
 list all sessions  
 ``tmux ls``	
@@ -26,7 +26,7 @@ or
 
 
 
-###Windows
+### Windows
 create a new session with window name  
 ``tmux new -s [session-name] -n [window-name]``
 
@@ -45,7 +45,7 @@ moving through windows
 
 ```
 
-###Panes
+### Panes
 divide window vertically   
 ``[prefix-key] + %``
 
@@ -59,7 +59,7 @@ close current pane
 ``[prefix-key] + x``
 
 
-###Configuration
+### Configuration
 Create config file:  
 ``touch ~/.tmux.conf``
 
@@ -105,7 +105,7 @@ start a project
 
 
 
-#References:
+# References:
 
 [Build podcast](https://build-podcast.com/tmux/)  
 [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
