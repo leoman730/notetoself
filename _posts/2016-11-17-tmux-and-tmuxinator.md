@@ -105,7 +105,7 @@ start a project
 
 
 
-# References:
+## References:
 
 [Build podcast](https://build-podcast.com/tmux/)  
 [Tmuxinator](https://github.com/tmuxinator/tmuxinator)
