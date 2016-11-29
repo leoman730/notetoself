@@ -58,6 +58,15 @@ use predefined arrangement
 close current pane  
 ``[prefix-key] + x``
 
+switching pane
+```
+C-a left       go to the next pane on the left
+C-a right      (or one of these other directions)
+C-a up
+C-a down
+C-a o          go to the next pane (cycle through all of them)
+C-a ;          go to the ‘last’ (previously used) pane
+```
 
 ### Configuration
 Create config file:  
